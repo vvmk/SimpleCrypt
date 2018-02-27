@@ -1,8 +1,6 @@
-import static java.lang.Character.isLowerCase;
-import static java.lang.Character.isUpperCase;
-import static java.lang.Character.toLowerCase;
+package crypt;
 
-public class ROT13  {
+public class ROT13 {
 
     ROT13(Character cs, Character cf) {
     }
@@ -10,6 +8,10 @@ public class ROT13  {
     ROT13() {
     }
 
+    public static String rotate(String s, Character c) {
+
+        return "";
+    }
 
     public String crypt(String text) throws UnsupportedOperationException {
 
@@ -22,11 +24,6 @@ public class ROT13  {
 
     public String decrypt(String text) {
         return text;
-    }
-
-    public static String rotate(String s, Character c) {
-
-        return "";
     }
 
 }

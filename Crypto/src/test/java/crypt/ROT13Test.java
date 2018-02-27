@@ -1,6 +1,8 @@
+package crypt;
+
 import org.junit.Test;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertTrue;
 
 public class ROT13Test {
 
@@ -73,6 +75,7 @@ public class ROT13Test {
         // Then
         assertTrue(actual2.equals(A2));
     }
+
     @Test
     public void cryptTest2() {
         // Given
